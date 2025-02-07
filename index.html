@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>San Valentín 💙</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600&display=swap" rel="stylesheet">
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        
+        body {
+            font-family: 'Montserrat', sans-serif;
+            text-align: center;
+            background-color: #ADD8E6;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .container {
+            background: white;
+            padding: 20px;
+            border-radius: 15px;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+            width: 90%;
+            max-width: 350px;
+        }
+
+        h1 { color: #1E3A8A; font-weight: 600; font-size: 22px; }
+        p { font-size: 16px; color: #333; margin: 10px 0; }
+
+        .buttons {
+            display: flex;
+            justify-content: space-around;
+            margin-top: 15px;
+        }
+
+        button {
+            background-color: #1E3A8A;
+            color: white;
+            border: none;
+            padding: 12px 20px;
+            font-size: 16px;
+            cursor: pointer;
+            border-radius: 8px;
+            transition: 0.3s;
+        }
+
+        button:hover { background-color: #152c5b; }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>💙 Error 404: San Valentín Not Found 💙</h1>
+        <p>¿Quieres solucionarlo?</p>
+        <div class="buttons">
+            <button onclick="window.location.href='invitacion.html'">Sí</button>
+            <button onclick="alert('Opción no válida 😜')">No</button>
+        </div>
+    </div>
+
+</body>
+</html>
